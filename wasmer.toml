@@ -1,0 +1,12 @@
+[package]
+name = "randomduck/astro-starter-cc3"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/ayys/ayys-astro-starter-cc3"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
